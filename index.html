@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mayowa</title>
+        <link rel="icon" href="public/assets/images/icon.svg">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css" as="style">
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js" as="script">
+        <script defer src="public/assets/js/app-head.js"></script>
+        <link rel="stylesheet" href="public/assets/css/theme/main.css">
+        <script defer src="public/assets/js/uikit-components.js"></script>
+    </head>
+    <body>
+        <div id="root">not rendered</div>
+        <div class="darkmode-trigger bottom-right" data-darkmode-toggle>
+            <label class="switch">
+                <span class="sr-only">Toggle Darkmode</span>
+                <input type="checkbox" />
+                <span class="slider"></span>
+            </label>
+        </div>
+        <script type="module" src="src/main.tsx"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+        <script defer src="public/assets/js/app.js"></script>
+    </body>
+</html>
