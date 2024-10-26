@@ -47,7 +47,7 @@ const Index = () => {
                   <div className="uk-heading-hero@m uk-h2 uk-font-serif uk-text-normal uk-text-gray-80 dark:uk-text-gray-40 uk-margin-small-top">
                     {/*<a className="uk-link-underline"><span className="uk-text-success-60">La</span>g<span className="uk-text-success-60 uk-margin-remove">os</span></a>—<span className="uk-text-italic">based</span>*/}
                     <span>
-                      Lagos, Nigeria{" "}
+                      Dundee, Scotland {/*Lagos, Nigeria{" "}*/}
                       <span className="dark:uk-text-white uk-text-black">
                         [
                         <IconUI name={currentIcon} width="50px" height="50px" />
@@ -55,7 +55,8 @@ const Index = () => {
                       </span>
                     </span>{" "}
                     — <span className="uk-text-italic">based</span>
-                    <span className="uk-margin-xsmall-vertical">🇳🇬</span>
+                    <span className="uk-margin-xsmall-vertical">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
+                    {/*<span className="uk-margin-xsmall-vertical">🇳🇬</span>*/}
                     <p className="uk-margin-remove">Software Engineer.</p>
                   </div>
                   <p className="uk-text-2xlarge">
